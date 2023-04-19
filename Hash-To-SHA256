@@ -2,6 +2,9 @@ import os
 import hashlib
 import csv
 
+
+
+# Working : give txt file as input and result will be saved as out put || Requires hashlib csv
 # Function to identify the hash type of the input string
 def identify_hash_type(input_string):
     hash_types = ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512']
